@@ -1,0 +1,30 @@
+<button *ngIf="filteredResults && filteredResults.length > 0" 
+class="back-to-search-btn" (click)="goToHome()">
+    🔍 Back to Search</button>
+
+<!-- Display Results -->
+<div *ngIf="filteredResults && filteredResults.length > 0; else noResultsContainer">
+    <div class="card-container">
+        <div class="card" *ngFor="let item of filteredResults">
+            <img [src]="item.photos[0]" alt="Destination Image" class="card-img">
+            <div class="card-body">
+                <h5 class="card-title">{{ item.title }}</h5>
+                <p class="card-text">{{ item.summary }}</p>
+                <button class="read-more-btn" (click)="viewDetails(item)">Read More</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- No Results Section (✅ Fixed) -->
+<ng-template #noResultsContainer>
+    <div class="no-results-container" [ngClass]="{'fade-out': showAnimation}">
+        <p>❌❌ Oops.... No Results Found. Try again !! ❌❌</p>
+        <button (click)="goToHome()" class="home-button">Go to Home</button>
+    </div>
+</ng-template>
+
+<!-- Rocket Animation (Only Shows When No Results) -->
+<div *ngIf="showAnimation" class="plane-container">
+    <img src="assets/rocket1.png" alt="Rocket" class="rocket" />
+</div>
