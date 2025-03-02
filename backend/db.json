@@ -1,0 +1,85 @@
+{
+  "destinationGuides": [
+    {
+      "id": "123",
+      "title": "Bali Destination Guide",
+      "summary": "Explore the beauty of Bali with our comprehensive guide.",
+      "photos": ["assets/images/beach1.jfif", "assets/images/beach2.jfif"],
+      "description": "Bali is known for its breathtaking beaches, vibrant nightlife, and rich culture. Visit Uluwatu Temple, explore the rice terraces, and experience local Balinese cuisine.",
+      "reviews": [
+        {
+          "user": "traveler123",
+          "rating": 5,
+          "comment": "Absolutely loved Bali! This guide was super helpful."
+        },
+        {
+          "user": "wanderlust_jane",
+          "rating": 4,
+          "comment": "Great insights, but I wish there were more restaurant recommendations."
+        }
+      ],
+      "attractions": [
+        "Uluwatu Temple",
+        "Tegallalang Rice Terraces",
+        "Seminyak Beach",
+        "Mount Batur"
+      ]
+    },
+    {
+      "id": "456",
+      "title": "Paris Destination Guide",
+      "summary": "Discover the magic of Paris, the City of Lights.",
+      "photos": ["assets/images/beach1.jfif", "assets/images/beach2.jfif"],
+      "description": "Paris, the capital of France, is famous for its art, fashion, and architecture. Visit the Eiffel Tower, explore the Louvre, and enjoy a croissant at a café in Montmartre.",
+      "reviews": [
+        {
+          "user": "globetrotter_89",
+          "rating": 5,
+          "comment": "Paris was a dream come true! The guide covered all must-see spots."
+        }
+      ],
+      "attractions": [
+        "Eiffel Tower",
+        "Louvre Museum",
+        "Notre-Dame Cathedral",
+        "Champs-Élysées"
+      ]
+    },
+    {
+      "id": "103",
+      "title": "Beach Destination Guide",
+      "summary": "Explore the beauty of Bali with our comprehensive guide.",
+      "photos": ["assets/images/beach1.jfif", "assets/images/beach2.jfif"],
+      "description": "Beaches offer stunning views, water activities, and relaxation. Discover the best spots for sunbathing and adventure.",
+      "reviews": [],
+      "attractions": []
+    },
+    {
+      "id": "127",
+      "title": "Hill Destination Guide",
+      "summary": "Explore the beauty of Bali with our comprehensive guide.",
+      "photos": ["assets/images/beach1.jfif", "assets/images/beach2.jfif"],
+      "description": "Hills and mountains provide breathtaking scenery, hiking trails, and cultural experiences.",
+      "reviews": [],
+      "attractions": []
+    },
+    {
+      "id": "056",
+      "title": "Japan Destination Guide",
+      "summary": "Discover the magic of Japan, the Land of the Rising Sun.",
+      "photos": ["assets/images/beach1.jfif", "assets/images/beach2.jfif"],
+      "description": "Japan blends ancient traditions with modern innovation. Visit Tokyo, Kyoto, and Hiroshima for a full experience.",
+      "reviews": [],
+      "attractions": []
+    },
+    {
+      "id": "279",
+      "title": "Beach Destination Guide",
+      "summary": "Explore the beauty of Bali with our comprehensive guide.",
+      "photos": ["assets/images/beach1.jfif", "assets/images/beach2.jfif"],
+      "description": "Another amazing beach destination offering clear waters and relaxation.",
+      "reviews": [],
+      "attractions": []
+    }
+  ]
+}
